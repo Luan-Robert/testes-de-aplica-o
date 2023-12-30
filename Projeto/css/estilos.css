@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #cepForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 5px;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: gray;
+    color: black;
+  }
+  
+  @media screen and (max-width: 800px)
+  {
+
+      html
+      {
+          font-size: 1.25rem;
+      }
+
+      body
+      {
+          background-color: grey;
+      }
+
+  }
